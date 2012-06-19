@@ -8,3 +8,4 @@ obj
 bin
 tests/test-results
 tests/TestResults/
+TestResults
