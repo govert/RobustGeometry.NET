@@ -1074,7 +1074,10 @@ namespace RobustGeometry.Predicates
         /*  nearly so.                                                               */
         /*                                                                           */
         /*****************************************************************************/
-
+        // |pax pay pax^2+pay^2 1|
+        // |pbx pby pbx^2+pby^2 1|
+        // |pcx pcy pcx^2+pcy^2 1|
+        // |pdx pdy pdx^2+pdy^2 1|
         public static double InCircleFast(double[] pa, double[] pb, double[] pc, double[] pd)
         {
             double adx, ady, bdx, bdy, cdx, cdy;

@@ -9,6 +9,10 @@ namespace RobustGeometry.Test.Predicates.Test
     [TestClass]
     public class InCircleTests
     {
+        // Try a bit with (1507029.9878 518325.7547, 1507022.1120341457 518332.8225183258,
+        // 1507029.9833 518325.7458, 1507029.9896965567 518325.744909031)
+
+
         [TestMethod]
         public void TestMethod1()
         {
