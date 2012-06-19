@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a99f0990-86a2-4e35-a391-af1927138ef9" name="Govert@GOVERT-LAPTOP 2012-06-19 23:54:02" runUser="RONIN\Govert" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="cb20c504-612a-43fe-85a6-4f2de9055356">
+    <Deployment runDeploymentRoot="Govert_GOVERT-LAPTOP 2012-06-19 23_54_02">
+      <DeploymentItem filename="C:\Work\RobustGeometry.NET\RobustGeometry\bin\Debug\RobustGeometry.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-19T23:54:02.9554595+02:00" queuing="2012-06-19T23:54:05.5762931+02:00" start="2012-06-19T23:54:05.6698943+02:00" finish="2012-06-19T23:54:11.8007729+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="45" executed="45" passed="45" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TwoProduct_Simple" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="11a9b821-00b8-e42e-df09-96d8081d9f5c">
+      <Execution id="d94844d1-0a12-4ddd-bcc9-b1b00c1c624e" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ProductTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TwoProduct_Simple" />
+    </UnitTest>
+    <UnitTest name="ShowDoubleRounding" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="96ddf851-e823-7ff5-6552-83dedd935856">
+      <Execution id="1cae282a-0c58-4136-8b08-155d21fb730e" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.FpuControl.Test.RoundingTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShowDoubleRounding" />
+    </UnitTest>
+    <UnitTest name="TwoProduct_Random" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="31a1cf8d-465a-5241-a170-106861841810">
+      <Execution id="7dfd8f8d-6be6-472f-8cc8-8bee384b5569" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ProductTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TwoProduct_Random" />
+    </UnitTest>
+    <UnitTest name="Split_Simple" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="4b1cf211-735d-787d-0f92-ceadda6de5a1">
+      <Execution id="d44b7acd-4e0a-44c5-bfa7-ea7ba6072da7" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ProductTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Split_Simple" />
+    </UnitTest>
+    <UnitTest name="FloatingPoint_CheckContants" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="c0367aec-3fd0-3301-4bf2-0766a5a65c49">
+      <Execution id="0cb85dbe-8304-4a3d-9c94-70e503b7a8b2" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.Util.Test.UtilTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FloatingPoint_CheckContants" />
+    </UnitTest>
+    <UnitTest name="Orient2D_Negative" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="d96ad571-57dd-cb43-683b-cfb242a25537">
+      <Execution id="5aedd69b-9f91-435e-87c7-7697edabf6f7" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.GeometricPredicatesTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Orient2D_Negative" />
+    </UnitTest>
+    <UnitTest name="DoubleComponents_PreservesValue_Random" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="3c08abf0-34d5-e2b8-683e-5827d806f801">
+      <Execution id="a4728b48-105b-4a09-bed8-5437b1c398c8" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.Util.Test.UtilTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DoubleComponents_PreservesValue_Random" />
+    </UnitTest>
+    <UnitTest name="Split_FullPrecision" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="b3060d2c-2f0b-ac9b-6efd-ebddc90fce45">
+      <Execution id="b9e25794-3e4b-40b9-8a66-f81ab27e5813" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ProductTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Split_FullPrecision" />
+    </UnitTest>
+    <UnitTest name="Orient2D_Simple" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="99f5681b-9ba2-c823-e172-4d54fc2580cf">
+      <Execution id="07887cb9-758d-4483-84de-b7f17e566b3c" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.GeometricPredicatesTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Orient2D_Simple" />
+    </UnitTest>
+    <UnitTest name="FastExpansionSum_Simple" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="c4d94441-b747-3309-fa98-3f21d2f10853">
+      <Execution id="eb830fca-91eb-4791-8e95-23c2c15d2a1b" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ExpansionTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FastExpansionSum_Simple" />
+    </UnitTest>
+    <UnitTest name="FloatingPointBinaryString_MatchesValue" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="e2421b12-ac9d-dbe9-903a-54a7aac6f739">
+      <Execution id="6a2f51e1-0140-4f5e-9c85-6dfb248d3970" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.Util.Test.UtilTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FloatingPointBinaryString_MatchesValue" />
+    </UnitTest>
+    <UnitTest name="FastExpansionSumZeroElim_ZeroAdd" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="c7bd6073-2d91-72ed-3e39-d610ccbdae1b">
+      <Execution id="ca9d7881-9fc0-4825-9748-3f78e597d9c4" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ExpansionTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FastExpansionSumZeroElim_ZeroAdd" />
+    </UnitTest>
+    <UnitTest name="FastTwoSum_ResultsNonOverlappingNonAdjacent_Random" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="576189ec-80bf-d396-e563-ab8c03eaf0fc">
+      <Execution id="c525426e-e83d-4584-a015-1f1638ac5c44" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.SumTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FastTwoSum_ResultsNonOverlappingNonAdjacent_Random" />
+    </UnitTest>
+    <UnitTest name="Square_Random" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="f2d0f9e5-1461-675a-00a2-3e8ed0852c0e">
+      <Execution id="d37999fe-1c4a-485b-ac17-e768d8b6d6cf" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ProductTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Square_Random" />
+    </UnitTest>
+    <UnitTest name="Orient3D_Simple" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="ca80a3e1-db6f-0e50-f4aa-9959edd2b876">
+      <Execution id="7fe3fe21-3ffb-4a0c-9e35-c0599ff6c74b" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.Orient3DTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Orient3D_Simple" />
+    </UnitTest>
+    <UnitTest name="FastTwoSum_OppositeSign" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="624235bf-0512-3c7b-6e9d-0ea3b041cb09">
+      <Execution id="a614074b-70c2-440e-8fb6-232885bf4ac1" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.SumTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FastTwoSum_OppositeSign" />
+    </UnitTest>
+    <UnitTest name="Overlapping_AreNot_NonOverlapping" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="d8f9fbae-9383-94c9-bd3c-3a4f7811d640">
+      <Execution id="25cc376c-c933-4976-b295-f0d444e4f272" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.Util.Test.UtilTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Overlapping_AreNot_NonOverlapping" />
+    </UnitTest>
+    <UnitTest name="ShowDoubleRoundingPriestExplicit" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="381280ff-c16e-ffc3-c6d6-2814273d5d14">
+      <Execution id="5a26842d-10b2-496f-b85a-a9eb25c852c9" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.FpuControl.Test.RoundingTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShowDoubleRoundingPriestExplicit" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="5e56a126-5e5d-fbbf-c1f4-178823e224dd">
+      <Execution id="8d9cdef4-ab9e-47f2-a56a-e04d087e3ea5" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.FpuControl.Test.FpuControlTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="GrowExpansion_Simple" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="17a10bc4-5034-0137-6a95-889f306f93b2">
+      <Execution id="a593828a-02da-4798-8856-7c26367dbc37" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ExpansionTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GrowExpansion_Simple" />
+    </UnitTest>
+    <UnitTest name="Split_FullPrecisionLarge" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="9c13e951-203f-a6ab-5914-227dd6063791">
+      <Execution id="a04532b6-05ea-4e71-aa94-a19eb4522e65" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ProductTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Split_FullPrecisionLarge" />
+    </UnitTest>
+    <UnitTest name="ScaleExpansion_Simple" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="eac6b939-beb9-cf3c-8bbf-c011308cb5b1">
+      <Execution id="fb17fa8d-60cf-4c75-9c8b-8901a00368ec" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ProductTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ScaleExpansion_Simple" />
+    </UnitTest>
+    <UnitTest name="ExpansionSum_Simple" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="b794f9f5-7ae7-c438-054d-23a76bf1296e">
+      <Execution id="51389c67-2701-4fb5-a043-4b7f3be4d1b6" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ExpansionTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExpansionSum_Simple" />
+    </UnitTest>
+    <UnitTest name="TwoSum_Small_a" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="4b744d24-d8c6-c6ae-954b-5107e993ddcc">
+      <Execution id="fd8b00d8-0121-49d0-8fd0-1d1cfa9cec5e" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.SumTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TwoSum_Small_a" />
+    </UnitTest>
+    <UnitTest name="Compress_Simple" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="199973a1-62cd-618f-40dc-c151b8bf869e">
+      <Execution id="11f8671d-8969-4258-a632-2458586530cf" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ExpansionTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Compress_Simple" />
+    </UnitTest>
+    <UnitTest name="ScaleExpansionZeroElim_Simple" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="769e1861-75ff-5439-aaf0-ce4ed15d49d7">
+      <Execution id="9252f278-d271-4d1e-8ad4-27891b058f07" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ProductTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ScaleExpansionZeroElim_Simple" />
+    </UnitTest>
+    <UnitTest name="DoubleComponents_PreservesValue" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="0956f8ec-7323-dc93-910d-8dabb0d8eef3">
+      <Execution id="2a1ec588-a935-415a-b921-a1b0187738fe" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.Util.Test.UtilTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DoubleComponents_PreservesValue" />
+    </UnitTest>
+    <UnitTest name="FastExpansionSumZeroElim_Simple" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="17dddc06-9ebb-e826-4c2c-ca13102b80e9">
+      <Execution id="3c851d52-ee11-4e14-8a7f-e877cfb86574" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ExpansionTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FastExpansionSumZeroElim_Simple" />
+    </UnitTest>
+    <UnitTest name="InPlane_ProblemCase" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="2f09e153-7892-0674-7b81-cf2e1e11d255">
+      <Execution id="c86d49b0-246a-4f31-ba00-5c814ef07bd0" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.Orient3DTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InPlane_ProblemCase" />
+    </UnitTest>
+    <UnitTest name="BitWidth_Simple" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="124cb753-6bda-e48a-bb9b-0c376fd0dc12">
+      <Execution id="0d4059ae-9223-4f65-9e0b-d1ea3043d347" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.Util.Test.UtilTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BitWidth_Simple" />
+    </UnitTest>
+    <UnitTest name="RoundToEvenTiebreaking" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="13bd75d3-6f0e-3bd0-4873-1fa66bf26919">
+      <Execution id="2a5dff95-966d-413d-9fde-015eeba7f509" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.Util.Test.RuntimeTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RoundToEvenTiebreaking" />
+    </UnitTest>
+    <UnitTest name="ShowDoubleRoundingPriest" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="e8833abb-87a2-9ca0-c9be-65a293cd2c2e">
+      <Execution id="cd10451c-86d5-4663-98ff-d6ed71a3b4a0" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.FpuControl.Test.RoundingTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShowDoubleRoundingPriest" />
+    </UnitTest>
+    <UnitTest name="FastTwoSum_SameSign" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="dd36aa87-6912-ddc0-4b3a-cbf1d93fff95">
+      <Execution id="ca616758-21f1-4db9-875a-a1578b784151" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.SumTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FastTwoSum_SameSign" />
+    </UnitTest>
+    <UnitTest name="TestPrecision53" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="1e0186dd-25ba-b8e8-43a9-cd30b50b7c2b">
+      <Execution id="e7489fa6-a9c7-41e8-9fca-585ecbf79d05" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.FpuControl.Test.FpuControlTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPrecision53" />
+    </UnitTest>
+    <UnitTest name="OptimTest" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="f5c49584-b846-249a-4183-663d50e4703d">
+      <Execution id="05e4bd9b-39fc-402b-b6e7-7d2c827669ba" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.Util.Test.UtilTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OptimTest" />
+    </UnitTest>
+    <UnitTest name="TwoProductPre2Split_Random" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="9839f2d5-c4f9-e0ce-454f-769675552832">
+      <Execution id="1ebb12d7-604b-4dd2-8114-cba2890e5dff" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ProductTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TwoProductPre2Split_Random" />
+    </UnitTest>
+    <UnitTest name="Orient2D_Marginal" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="437959df-866e-3bbe-d8c0-c21bfbdd988f">
+      <Execution id="76f23783-cd56-4bb8-b6da-99becd0f95fc" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.GeometricPredicatesTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Orient2D_Marginal" />
+    </UnitTest>
+    <UnitTest name="TwoSum_ResultsNonOverlappingNonAdjacent_Random" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="ccd90c0a-afe6-bf15-a754-98f394c17ca8">
+      <Execution id="24084160-d562-429e-b247-a16163a3d43d" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.SumTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TwoSum_ResultsNonOverlappingNonAdjacent_Random" />
+    </UnitTest>
+    <UnitTest name="NonOverlapping_Are_NonOverlapping" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="f2d249f6-729c-a9f8-f15e-ce8800638a64">
+      <Execution id="b888f124-33b6-4151-97f8-ca302c2a4b47" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.Util.Test.UtilTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NonOverlapping_Are_NonOverlapping" />
+    </UnitTest>
+    <UnitTest name="StronglyNonOverlapping" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="ce964e0c-2c05-5948-c531-2104aa837ce6">
+      <Execution id="3bfc347c-2941-44a2-b0ba-b21633fa2066" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.Util.Test.UtilTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StronglyNonOverlapping" />
+    </UnitTest>
+    <UnitTest name="TwoProductPreSplit_Random" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="6e2705a9-bc6c-c09c-0d30-632d56db2223">
+      <Execution id="5a308a2f-2293-495a-81bf-a97cc00a1595" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ProductTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TwoProductPreSplit_Random" />
+    </UnitTest>
+    <UnitTest name="ScaleExpansionZeroElim_Simple" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="3f4c5a2b-bc44-200e-60a2-4ee820b3ce85">
+      <Execution id="7a04be1b-ffcb-496f-a1d4-8bed026691ee" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustGeometry.Test.Predicates.Test.ExpansionTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ScaleExpansionZeroElim_Simple" />
+    </UnitTest>
+    <UnitTest name="TestPrecision64" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="018d203e-13f7-f4b2-6ebf-f84fbcba951c">
+      <Execution id="859cc06d-6e1f-4b0c-bd27-79a355e930ca" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.FpuControl.Test.FpuControlTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPrecision64" />
+    </UnitTest>
+    <UnitTest name="GetRandom" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="56e6713a-6920-20da-4d42-94d785c5e54a">
+      <Execution id="54aa749a-bb79-4565-b650-15c732ac2dbf" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.Util.Test.UtilTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetRandom" />
+    </UnitTest>
+    <UnitTest name="BitWidth_Large" storage="c:\work\robustgeometry.net\robustgeometry.test\bin\debug\robustgeometry.test.dll" id="8e599554-1d11-ad18-71b2-2b35e85f53cb">
+      <Execution id="3cb345ca-9e7d-4e71-8828-2711faa3c80b" />
+      <TestMethod codeBase="C:/Work/RobustGeometry.NET/RobustGeometry.Test/bin/Debug/RobustGeometry.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobustArithmetic.Test.Util.Test.UtilTests, RobustGeometry.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BitWidth_Large" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="018d203e-13f7-f4b2-6ebf-f84fbcba951c" executionId="859cc06d-6e1f-4b0c-bd27-79a355e930ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0956f8ec-7323-dc93-910d-8dabb0d8eef3" executionId="2a1ec588-a935-415a-b921-a1b0187738fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11a9b821-00b8-e42e-df09-96d8081d9f5c" executionId="d94844d1-0a12-4ddd-bcc9-b1b00c1c624e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="124cb753-6bda-e48a-bb9b-0c376fd0dc12" executionId="0d4059ae-9223-4f65-9e0b-d1ea3043d347" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="13bd75d3-6f0e-3bd0-4873-1fa66bf26919" executionId="2a5dff95-966d-413d-9fde-015eeba7f509" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17a10bc4-5034-0137-6a95-889f306f93b2" executionId="a593828a-02da-4798-8856-7c26367dbc37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17dddc06-9ebb-e826-4c2c-ca13102b80e9" executionId="3c851d52-ee11-4e14-8a7f-e877cfb86574" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="199973a1-62cd-618f-40dc-c151b8bf869e" executionId="11f8671d-8969-4258-a632-2458586530cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e0186dd-25ba-b8e8-43a9-cd30b50b7c2b" executionId="e7489fa6-a9c7-41e8-9fca-585ecbf79d05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f09e153-7892-0674-7b81-cf2e1e11d255" executionId="c86d49b0-246a-4f31-ba00-5c814ef07bd0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31a1cf8d-465a-5241-a170-106861841810" executionId="7dfd8f8d-6be6-472f-8cc8-8bee384b5569" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="381280ff-c16e-ffc3-c6d6-2814273d5d14" executionId="5a26842d-10b2-496f-b85a-a9eb25c852c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c08abf0-34d5-e2b8-683e-5827d806f801" executionId="a4728b48-105b-4a09-bed8-5437b1c398c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f4c5a2b-bc44-200e-60a2-4ee820b3ce85" executionId="7a04be1b-ffcb-496f-a1d4-8bed026691ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="437959df-866e-3bbe-d8c0-c21bfbdd988f" executionId="76f23783-cd56-4bb8-b6da-99becd0f95fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b1cf211-735d-787d-0f92-ceadda6de5a1" executionId="d44b7acd-4e0a-44c5-bfa7-ea7ba6072da7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b744d24-d8c6-c6ae-954b-5107e993ddcc" executionId="fd8b00d8-0121-49d0-8fd0-1d1cfa9cec5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56e6713a-6920-20da-4d42-94d785c5e54a" executionId="54aa749a-bb79-4565-b650-15c732ac2dbf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="576189ec-80bf-d396-e563-ab8c03eaf0fc" executionId="c525426e-e83d-4584-a015-1f1638ac5c44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e56a126-5e5d-fbbf-c1f4-178823e224dd" executionId="8d9cdef4-ab9e-47f2-a56a-e04d087e3ea5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="624235bf-0512-3c7b-6e9d-0ea3b041cb09" executionId="a614074b-70c2-440e-8fb6-232885bf4ac1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e2705a9-bc6c-c09c-0d30-632d56db2223" executionId="5a308a2f-2293-495a-81bf-a97cc00a1595" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="769e1861-75ff-5439-aaf0-ce4ed15d49d7" executionId="9252f278-d271-4d1e-8ad4-27891b058f07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e599554-1d11-ad18-71b2-2b35e85f53cb" executionId="3cb345ca-9e7d-4e71-8828-2711faa3c80b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96ddf851-e823-7ff5-6552-83dedd935856" executionId="1cae282a-0c58-4136-8b08-155d21fb730e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9839f2d5-c4f9-e0ce-454f-769675552832" executionId="1ebb12d7-604b-4dd2-8114-cba2890e5dff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99f5681b-9ba2-c823-e172-4d54fc2580cf" executionId="07887cb9-758d-4483-84de-b7f17e566b3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c13e951-203f-a6ab-5914-227dd6063791" executionId="a04532b6-05ea-4e71-aa94-a19eb4522e65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3060d2c-2f0b-ac9b-6efd-ebddc90fce45" executionId="b9e25794-3e4b-40b9-8a66-f81ab27e5813" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b794f9f5-7ae7-c438-054d-23a76bf1296e" executionId="51389c67-2701-4fb5-a043-4b7f3be4d1b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0367aec-3fd0-3301-4bf2-0766a5a65c49" executionId="0cb85dbe-8304-4a3d-9c94-70e503b7a8b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4d94441-b747-3309-fa98-3f21d2f10853" executionId="eb830fca-91eb-4791-8e95-23c2c15d2a1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7bd6073-2d91-72ed-3e39-d610ccbdae1b" executionId="ca9d7881-9fc0-4825-9748-3f78e597d9c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca80a3e1-db6f-0e50-f4aa-9959edd2b876" executionId="7fe3fe21-3ffb-4a0c-9e35-c0599ff6c74b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ccd90c0a-afe6-bf15-a754-98f394c17ca8" executionId="24084160-d562-429e-b247-a16163a3d43d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce964e0c-2c05-5948-c531-2104aa837ce6" executionId="3bfc347c-2941-44a2-b0ba-b21633fa2066" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8f9fbae-9383-94c9-bd3c-3a4f7811d640" executionId="25cc376c-c933-4976-b295-f0d444e4f272" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d96ad571-57dd-cb43-683b-cfb242a25537" executionId="5aedd69b-9f91-435e-87c7-7697edabf6f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd36aa87-6912-ddc0-4b3a-cbf1d93fff95" executionId="ca616758-21f1-4db9-875a-a1578b784151" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2421b12-ac9d-dbe9-903a-54a7aac6f739" executionId="6a2f51e1-0140-4f5e-9c85-6dfb248d3970" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8833abb-87a2-9ca0-c9be-65a293cd2c2e" executionId="cd10451c-86d5-4663-98ff-d6ed71a3b4a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eac6b939-beb9-cf3c-8bbf-c011308cb5b1" executionId="fb17fa8d-60cf-4c75-9c8b-8901a00368ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2d0f9e5-1461-675a-00a2-3e8ed0852c0e" executionId="d37999fe-1c4a-485b-ac17-e768d8b6d6cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2d249f6-729c-a9f8-f15e-ce8800638a64" executionId="b888f124-33b6-4151-97f8-ca302c2a4b47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5c49584-b846-249a-4183-663d50e4703d" executionId="05e4bd9b-39fc-402b-b6e7-7d2c827669ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="859cc06d-6e1f-4b0c-bd27-79a355e930ca" testId="018d203e-13f7-f4b2-6ebf-f84fbcba951c" testName="TestPrecision64" computerName="GOVERT-LAPTOP" duration="00:00:00.0105154" startTime="2012-06-19T23:54:05.7166949+02:00" endTime="2012-06-19T23:54:05.9194975+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="859cc06d-6e1f-4b0c-bd27-79a355e930ca">
+    </UnitTestResult>
+    <UnitTestResult executionId="2a1ec588-a935-415a-b921-a1b0187738fe" testId="0956f8ec-7323-dc93-910d-8dabb0d8eef3" testName="DoubleComponents_PreservesValue" computerName="GOVERT-LAPTOP" duration="00:00:00.0023555" startTime="2012-06-19T23:54:05.9194975+02:00" endTime="2012-06-19T23:54:05.9194975+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a1ec588-a935-415a-b921-a1b0187738fe">
+    </UnitTestResult>
+    <UnitTestResult executionId="d94844d1-0a12-4ddd-bcc9-b1b00c1c624e" testId="11a9b821-00b8-e42e-df09-96d8081d9f5c" testName="TwoProduct_Simple" computerName="GOVERT-LAPTOP" duration="00:00:00.0102930" startTime="2012-06-19T23:54:05.9194975+02:00" endTime="2012-06-19T23:54:05.9350977+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d94844d1-0a12-4ddd-bcc9-b1b00c1c624e">
+    </UnitTestResult>
+    <UnitTestResult executionId="0d4059ae-9223-4f65-9e0b-d1ea3043d347" testId="124cb753-6bda-e48a-bb9b-0c376fd0dc12" testName="BitWidth_Simple" computerName="GOVERT-LAPTOP" duration="00:00:00.0018078" startTime="2012-06-19T23:54:05.9350977+02:00" endTime="2012-06-19T23:54:05.9350977+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d4059ae-9223-4f65-9e0b-d1ea3043d347">
+    </UnitTestResult>
+    <UnitTestResult executionId="2a5dff95-966d-413d-9fde-015eeba7f509" testId="13bd75d3-6f0e-3bd0-4873-1fa66bf26919" testName="RoundToEvenTiebreaking" computerName="GOVERT-LAPTOP" duration="00:00:00.0002934" startTime="2012-06-19T23:54:05.9350977+02:00" endTime="2012-06-19T23:54:05.9350977+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a5dff95-966d-413d-9fde-015eeba7f509">
+    </UnitTestResult>
+    <UnitTestResult executionId="a593828a-02da-4798-8856-7c26367dbc37" testId="17a10bc4-5034-0137-6a95-889f306f93b2" testName="GrowExpansion_Simple" computerName="GOVERT-LAPTOP" duration="00:00:00.0082191" startTime="2012-06-19T23:54:05.9350977+02:00" endTime="2012-06-19T23:54:05.9506979+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a593828a-02da-4798-8856-7c26367dbc37">
+    </UnitTestResult>
+    <UnitTestResult executionId="3c851d52-ee11-4e14-8a7f-e877cfb86574" testId="17dddc06-9ebb-e826-4c2c-ca13102b80e9" testName="FastExpansionSumZeroElim_Simple" computerName="GOVERT-LAPTOP" duration="00:00:00.0040067" startTime="2012-06-19T23:54:05.9506979+02:00" endTime="2012-06-19T23:54:05.9662981+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c851d52-ee11-4e14-8a7f-e877cfb86574">
+    </UnitTestResult>
+    <UnitTestResult executionId="11f8671d-8969-4258-a632-2458586530cf" testId="199973a1-62cd-618f-40dc-c151b8bf869e" testName="Compress_Simple" computerName="GOVERT-LAPTOP" duration="00:00:00.0006971" startTime="2012-06-19T23:54:05.9662981+02:00" endTime="2012-06-19T23:54:05.9662981+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11f8671d-8969-4258-a632-2458586530cf">
+    </UnitTestResult>
+    <UnitTestResult executionId="e7489fa6-a9c7-41e8-9fca-585ecbf79d05" testId="1e0186dd-25ba-b8e8-43a9-cd30b50b7c2b" testName="TestPrecision53" computerName="GOVERT-LAPTOP" duration="00:00:00.0002387" startTime="2012-06-19T23:54:05.9662981+02:00" endTime="2012-06-19T23:54:05.9662981+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7489fa6-a9c7-41e8-9fca-585ecbf79d05">
+    </UnitTestResult>
+    <UnitTestResult executionId="c86d49b0-246a-4f31-ba00-5c814ef07bd0" testId="2f09e153-7892-0674-7b81-cf2e1e11d255" testName="InPlane_ProblemCase" computerName="GOVERT-LAPTOP" duration="00:00:00.0404679" startTime="2012-06-19T23:54:05.9662981+02:00" endTime="2012-06-19T23:54:06.0130987+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c86d49b0-246a-4f31-ba00-5c814ef07bd0">
+      <Output>
+        <DebugTrace>Start CD
+0.125399991869926
+0.00164529145695269
+0.116999998688698
+0.00179333752021194
+0
+0.000224884510454611
+0
+0.000192499098305991
+----------
+0
+0
+0
+3.2385412148620146E-05
+End CD
+----------
+0
+0
+0
+-1.5064022941421729E-05
+----------
+0
+0
+0
+-1.8564975129083811E-05
+----------
+-1.2435859218853929E-06
+----------
+0
+----------
+0
+----------
+-1.2435859218853929E-06
+----------
+-1.2278462217584005E-24
+2.389453623743042E-08
+----------
+2.5849394142282115E-26
+-2.2285057999038637E-08
+----------
+0
+----------
+0
+----------
+3.8774091213423172E-26
+1.6094782383917819E-09
+Start CD
+0.125399991869926
+0.00164529145695269
+0.125399991869926
+0.00179333752021194
+0
+0.000224884510454611
+0
+0.000206319535325527
+----------
+0
+0
+0
+1.8564975129083811E-05
+End CD
+----------
+0
+0
+0
+0
+----------
+0
+0
+0
+-1.8564975129083811E-05
+----------
+0
+----------
+0
+----------
+0
+----------
+0
+----------
+0
+----------
+0
+----------
+0
+----------
+0
+----------
+0
+Start CD
+0.125399991869926
+0.00179333752021194
+0.116999998688698
+0.00179333752021194
+0
+0.000224884510454611
+0
+0.000209820487513189
+----------
+0
+0
+0
+1.5064022941421729E-05
+End CD
+----------
+0
+0
+0
+-1.5064022941421729E-05
+----------
+0
+0
+0
+0
+----------
+0
+----------
+-1.2435859218853929E-06
+----------
+0
+----------
+1.2435859218853929E-06
+----------
+2.5849394142282115E-26
+-2.2285057999038637E-08
+----------
+0
+----------
+-8.5303000669530979E-25
+2.4142148095924595E-08
+----------
+0
+----------
+-8.2718061255302767E-25
+1.8570900968859581E-09
+Start CD
+0.125399991869926
+0.00164529145695269
+0.116999998688698
+0.00179333752021194
+0
+965871.617779523
+0
+826777.331733719
+----------
+0
+0
+0
+139094.28604580462
+End CD
+----------
+0
+0
+0
+-64699.485879600048
+----------
+0
+0
+0
+-79735.961030468345
+----------
+-5341.160864263773
+----------
+0
+----------
+0
+----------
+-5341.160864263773
+----------
+-2.2649765014648438E-05
+440776394731.85773
+----------
+4.76837158203125E-07
+-411086761576.03961
+----------
+0
+----------
+0
+----------
+7.152557373046875E-07
+29689633155.818092
+Start CD
+0.125399991869926
+0.00164529145695269
+0.125399991869926
+0.00179333752021194
+0
+965871.617779523
+0
+886135.656749055
+----------
+0
+0
+0
+79735.961030468345
+End CD
+----------
+0
+0
+0
+0
+----------
+0
+0
+0
+-79735.961030468345
+----------
+0
+----------
+0
+----------
+0
+----------
+0
+----------
+0
+----------
+0
+----------
+0
+----------
+0
+----------
+0
+Start CD
+0.125399991869926
+0.00179333752021194
+0.116999998688698
+0.00179333752021194
+0
+965871.617779523
+0
+901172.131899923
+----------
+0
+0
+0
+64699.485879600048
+End CD
+----------
+0
+0
+0
+-64699.485879600048
+----------
+0
+0
+0
+0
+----------
+0
+----------
+-5341.160864263773
+----------
+0
+----------
+5341.160864263773
+----------
+4.76837158203125E-07
+-411086761576.03961
+----------
+0
+----------
+-1.5735626220703125E-05
+445344027315.11536
+----------
+0
+----------
+-1.52587890625E-05
+34257265739.075745
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7dfd8f8d-6be6-472f-8cc8-8bee384b5569" testId="31a1cf8d-465a-5241-a170-106861841810" testName="TwoProduct_Random" computerName="GOVERT-LAPTOP" duration="00:00:00.5099471" startTime="2012-06-19T23:54:06.0130987+02:00" endTime="2012-06-19T23:54:06.5279053+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7dfd8f8d-6be6-472f-8cc8-8bee384b5569">
+      <Output>
+        <DebugTrace>TwoProduct_Random Tested 100000 tries
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5a26842d-10b2-496f-b85a-a9eb25c852c9" testId="381280ff-c16e-ffc3-c6d6-2814273d5d14" testName="ShowDoubleRoundingPriestExplicit" computerName="GOVERT-LAPTOP" duration="00:00:00.0005279" startTime="2012-06-19T23:54:06.5279053+02:00" endTime="2012-06-19T23:54:06.5279053+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a26842d-10b2-496f-b85a-a9eb25c852c9">
+      <Output>
+        <DebugTrace>10000000000000000000000000000000000000000000000000001.0
+0.011111111111111111111111111111111111111111111111111111
+10000000000000000000000000000000000000000000000000001.0
+10000000000000000000000000000000000000000000000000010.0
+10000000000000000000000000000000000000000000000000001.0
+10000000000000000000000000000000000000000000000000001.0
+10000000000000000000000000000000000000000000000000010.0
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a4728b48-105b-4a09-bed8-5437b1c398c8" testId="3c08abf0-34d5-e2b8-683e-5827d806f801" testName="DoubleComponents_PreservesValue_Random" computerName="GOVERT-LAPTOP" duration="00:00:00.0140094" startTime="2012-06-19T23:54:06.5279053+02:00" endTime="2012-06-19T23:54:06.5435055+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4728b48-105b-4a09-bed8-5437b1c398c8">
+    </UnitTestResult>
+    <UnitTestResult executionId="7a04be1b-ffcb-496f-a1d4-8bed026691ee" testId="3f4c5a2b-bc44-200e-60a2-4ee820b3ce85" testName="ScaleExpansionZeroElim_Simple" computerName="GOVERT-LAPTOP" duration="00:00:00.0001117" startTime="2012-06-19T23:54:06.5435055+02:00" endTime="2012-06-19T23:54:06.5591057+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a04be1b-ffcb-496f-a1d4-8bed026691ee">
+    </UnitTestResult>
+    <UnitTestResult executionId="76f23783-cd56-4bb8-b6da-99becd0f95fc" testId="437959df-866e-3bbe-d8c0-c21bfbdd988f" testName="Orient2D_Marginal" computerName="GOVERT-LAPTOP" duration="00:00:00.0018899" startTime="2012-06-19T23:54:06.5591057+02:00" endTime="2012-06-19T23:54:06.5591057+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76f23783-cd56-4bb8-b6da-99becd0f95fc">
+      <Output>
+        <DebugTrace>Fast: 0 Adapt: 1E-80
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d44b7acd-4e0a-44c5-bfa7-ea7ba6072da7" testId="4b1cf211-735d-787d-0f92-ceadda6de5a1" testName="Split_Simple" computerName="GOVERT-LAPTOP" duration="00:00:00.0002892" startTime="2012-06-19T23:54:06.5591057+02:00" endTime="2012-06-19T23:54:06.5747059+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d44b7acd-4e0a-44c5-bfa7-ea7ba6072da7">
+    </UnitTestResult>
+    <UnitTestResult executionId="fd8b00d8-0121-49d0-8fd0-1d1cfa9cec5e" testId="4b744d24-d8c6-c6ae-954b-5107e993ddcc" testName="TwoSum_Small_a" computerName="GOVERT-LAPTOP" duration="00:00:00.0003383" startTime="2012-06-19T23:54:06.5747059+02:00" endTime="2012-06-19T23:54:06.5747059+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd8b00d8-0121-49d0-8fd0-1d1cfa9cec5e">
+    </UnitTestResult>
+    <UnitTestResult executionId="54aa749a-bb79-4565-b650-15c732ac2dbf" testId="56e6713a-6920-20da-4d42-94d785c5e54a" testName="GetRandom" computerName="GOVERT-LAPTOP" duration="00:00:00.0003325" startTime="2012-06-19T23:54:06.5747059+02:00" endTime="2012-06-19T23:54:06.5747059+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54aa749a-bb79-4565-b650-15c732ac2dbf">
+    </UnitTestResult>
+    <UnitTestResult executionId="c525426e-e83d-4584-a015-1f1638ac5c44" testId="576189ec-80bf-d396-e563-ab8c03eaf0fc" testName="FastTwoSum_ResultsNonOverlappingNonAdjacent_Random" computerName="GOVERT-LAPTOP" duration="00:00:01.6142660" startTime="2012-06-19T23:54:06.5747059+02:00" endTime="2012-06-19T23:54:08.1971267+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c525426e-e83d-4584-a015-1f1638ac5c44">
+      <Output>
+        <DebugTrace>FastTwoSum_MaintainsNonOverlapping_Random Tested 499577 out of 1000000 tries
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8d9cdef4-ab9e-47f2-a56a-e04d087e3ea5" testId="5e56a126-5e5d-fbbf-c1f4-178823e224dd" testName="TestMethod1" computerName="GOVERT-LAPTOP" duration="00:00:00.0004964" startTime="2012-06-19T23:54:08.1971267+02:00" endTime="2012-06-19T23:54:08.1971267+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d9cdef4-ab9e-47f2-a56a-e04d087e3ea5">
+    </UnitTestResult>
+    <UnitTestResult executionId="a614074b-70c2-440e-8fb6-232885bf4ac1" testId="624235bf-0512-3c7b-6e9d-0ea3b041cb09" testName="FastTwoSum_OppositeSign" computerName="GOVERT-LAPTOP" duration="00:00:00.0002687" startTime="2012-06-19T23:54:08.1971267+02:00" endTime="2012-06-19T23:54:08.2127269+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a614074b-70c2-440e-8fb6-232885bf4ac1">
+    </UnitTestResult>
+    <UnitTestResult executionId="5a308a2f-2293-495a-81bf-a97cc00a1595" testId="6e2705a9-bc6c-c09c-0d30-632d56db2223" testName="TwoProductPreSplit_Random" computerName="GOVERT-LAPTOP" duration="00:00:00.5121145" startTime="2012-06-19T23:54:08.2127269+02:00" endTime="2012-06-19T23:54:08.7275335+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a308a2f-2293-495a-81bf-a97cc00a1595">
+      <Output>
+        <DebugTrace>TwoProduct_Random Tested 100000 tries
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9252f278-d271-4d1e-8ad4-27891b058f07" testId="769e1861-75ff-5439-aaf0-ce4ed15d49d7" testName="ScaleExpansionZeroElim_Simple" computerName="GOVERT-LAPTOP" duration="00:00:00.0012349" startTime="2012-06-19T23:54:08.7275335+02:00" endTime="2012-06-19T23:54:08.7275335+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9252f278-d271-4d1e-8ad4-27891b058f07">
+    </UnitTestResult>
+    <UnitTestResult executionId="3cb345ca-9e7d-4e71-8828-2711faa3c80b" testId="8e599554-1d11-ad18-71b2-2b35e85f53cb" testName="BitWidth_Large" computerName="GOVERT-LAPTOP" duration="00:00:00.0002166" startTime="2012-06-19T23:54:08.7275335+02:00" endTime="2012-06-19T23:54:08.7431337+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cb345ca-9e7d-4e71-8828-2711faa3c80b">
+    </UnitTestResult>
+    <UnitTestResult executionId="1cae282a-0c58-4136-8b08-155d21fb730e" testId="96ddf851-e823-7ff5-6552-83dedd935856" testName="ShowDoubleRounding" computerName="GOVERT-LAPTOP" duration="00:00:00.0003078" startTime="2012-06-19T23:54:08.7431337+02:00" endTime="2012-06-19T23:54:08.7431337+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1cae282a-0c58-4136-8b08-155d21fb730e">
+    </UnitTestResult>
+    <UnitTestResult executionId="1ebb12d7-604b-4dd2-8114-cba2890e5dff" testId="9839f2d5-c4f9-e0ce-454f-769675552832" testName="TwoProductPre2Split_Random" computerName="GOVERT-LAPTOP" duration="00:00:00.5451813" startTime="2012-06-19T23:54:08.7587339+02:00" endTime="2012-06-19T23:54:09.3047409+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ebb12d7-604b-4dd2-8114-cba2890e5dff">
+      <Output>
+        <DebugTrace>TwoProduct_Random Tested 100000 tries
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="07887cb9-758d-4483-84de-b7f17e566b3c" testId="99f5681b-9ba2-c823-e172-4d54fc2580cf" testName="Orient2D_Simple" computerName="GOVERT-LAPTOP" duration="00:00:00.0002132" startTime="2012-06-19T23:54:09.3047409+02:00" endTime="2012-06-19T23:54:09.3047409+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07887cb9-758d-4483-84de-b7f17e566b3c">
+    </UnitTestResult>
+    <UnitTestResult executionId="a04532b6-05ea-4e71-aa94-a19eb4522e65" testId="9c13e951-203f-a6ab-5914-227dd6063791" testName="Split_FullPrecisionLarge" computerName="GOVERT-LAPTOP" duration="00:00:00.0002763" startTime="2012-06-19T23:54:09.3047409+02:00" endTime="2012-06-19T23:54:09.3047409+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a04532b6-05ea-4e71-aa94-a19eb4522e65">
+    </UnitTestResult>
+    <UnitTestResult executionId="b9e25794-3e4b-40b9-8a66-f81ab27e5813" testId="b3060d2c-2f0b-ac9b-6efd-ebddc90fce45" testName="Split_FullPrecision" computerName="GOVERT-LAPTOP" duration="00:00:00.0002816" startTime="2012-06-19T23:54:09.3203411+02:00" endTime="2012-06-19T23:54:09.3203411+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9e25794-3e4b-40b9-8a66-f81ab27e5813">
+    </UnitTestResult>
+    <UnitTestResult executionId="51389c67-2701-4fb5-a043-4b7f3be4d1b6" testId="b794f9f5-7ae7-c438-054d-23a76bf1296e" testName="ExpansionSum_Simple" computerName="GOVERT-LAPTOP" duration="00:00:00.0004523" startTime="2012-06-19T23:54:09.3203411+02:00" endTime="2012-06-19T23:54:09.3359413+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51389c67-2701-4fb5-a043-4b7f3be4d1b6">
+    </UnitTestResult>
+    <UnitTestResult executionId="0cb85dbe-8304-4a3d-9c94-70e503b7a8b2" testId="c0367aec-3fd0-3301-4bf2-0766a5a65c49" testName="FloatingPoint_CheckContants" computerName="GOVERT-LAPTOP" duration="00:00:00.0009556" startTime="2012-06-19T23:54:09.3359413+02:00" endTime="2012-06-19T23:54:09.3359413+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0cb85dbe-8304-4a3d-9c94-70e503b7a8b2">
+    </UnitTestResult>
+    <UnitTestResult executionId="eb830fca-91eb-4791-8e95-23c2c15d2a1b" testId="c4d94441-b747-3309-fa98-3f21d2f10853" testName="FastExpansionSum_Simple" computerName="GOVERT-LAPTOP" duration="00:00:00.0010494" startTime="2012-06-19T23:54:09.3359413+02:00" endTime="2012-06-19T23:54:09.3359413+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb830fca-91eb-4791-8e95-23c2c15d2a1b">
+    </UnitTestResult>
+    <UnitTestResult executionId="ca9d7881-9fc0-4825-9748-3f78e597d9c4" testId="c7bd6073-2d91-72ed-3e39-d610ccbdae1b" testName="FastExpansionSumZeroElim_ZeroAdd" computerName="GOVERT-LAPTOP" duration="00:00:00.0003109" startTime="2012-06-19T23:54:09.3359413+02:00" endTime="2012-06-19T23:54:09.3515415+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca9d7881-9fc0-4825-9748-3f78e597d9c4">
+    </UnitTestResult>
+    <UnitTestResult executionId="7fe3fe21-3ffb-4a0c-9e35-c0599ff6c74b" testId="ca80a3e1-db6f-0e50-f4aa-9959edd2b876" testName="Orient3D_Simple" computerName="GOVERT-LAPTOP" duration="00:00:00.0053265" startTime="2012-06-19T23:54:09.3515415+02:00" endTime="2012-06-19T23:54:09.3515415+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fe3fe21-3ffb-4a0c-9e35-c0599ff6c74b">
+    </UnitTestResult>
+    <UnitTestResult executionId="24084160-d562-429e-b247-a16163a3d43d" testId="ccd90c0a-afe6-bf15-a754-98f394c17ca8" testName="TwoSum_ResultsNonOverlappingNonAdjacent_Random" computerName="GOVERT-LAPTOP" duration="00:00:02.2368640" startTime="2012-06-19T23:54:09.3515415+02:00" endTime="2012-06-19T23:54:11.5979703+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24084160-d562-429e-b247-a16163a3d43d">
+    </UnitTestResult>
+    <UnitTestResult executionId="3bfc347c-2941-44a2-b0ba-b21633fa2066" testId="ce964e0c-2c05-5948-c531-2104aa837ce6" testName="StronglyNonOverlapping" computerName="GOVERT-LAPTOP" duration="00:00:00.0051911" startTime="2012-06-19T23:54:11.5979703+02:00" endTime="2012-06-19T23:54:11.6135705+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3bfc347c-2941-44a2-b0ba-b21633fa2066">
+    </UnitTestResult>
+    <UnitTestResult executionId="25cc376c-c933-4976-b295-f0d444e4f272" testId="d8f9fbae-9383-94c9-bd3c-3a4f7811d640" testName="Overlapping_AreNot_NonOverlapping" computerName="GOVERT-LAPTOP" duration="00:00:00.0001699" startTime="2012-06-19T23:54:11.6135705+02:00" endTime="2012-06-19T23:54:11.6135705+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25cc376c-c933-4976-b295-f0d444e4f272">
+    </UnitTestResult>
+    <UnitTestResult executionId="5aedd69b-9f91-435e-87c7-7697edabf6f7" testId="d96ad571-57dd-cb43-683b-cfb242a25537" testName="Orient2D_Negative" computerName="GOVERT-LAPTOP" duration="00:00:00.0002345" startTime="2012-06-19T23:54:11.6135705+02:00" endTime="2012-06-19T23:54:11.6135705+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5aedd69b-9f91-435e-87c7-7697edabf6f7">
+    </UnitTestResult>
+    <UnitTestResult executionId="ca616758-21f1-4db9-875a-a1578b784151" testId="dd36aa87-6912-ddc0-4b3a-cbf1d93fff95" testName="FastTwoSum_SameSign" computerName="GOVERT-LAPTOP" duration="00:00:00.0003196" startTime="2012-06-19T23:54:11.6291707+02:00" endTime="2012-06-19T23:54:11.6291707+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca616758-21f1-4db9-875a-a1578b784151">
+    </UnitTestResult>
+    <UnitTestResult executionId="6a2f51e1-0140-4f5e-9c85-6dfb248d3970" testId="e2421b12-ac9d-dbe9-903a-54a7aac6f739" testName="FloatingPointBinaryString_MatchesValue" computerName="GOVERT-LAPTOP" duration="00:00:00.0015242" startTime="2012-06-19T23:54:11.6291707+02:00" endTime="2012-06-19T23:54:11.6291707+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a2f51e1-0140-4f5e-9c85-6dfb248d3970">
+    </UnitTestResult>
+    <UnitTestResult executionId="cd10451c-86d5-4663-98ff-d6ed71a3b4a0" testId="e8833abb-87a2-9ca0-c9be-65a293cd2c2e" testName="ShowDoubleRoundingPriest" computerName="GOVERT-LAPTOP" duration="00:00:00.0005044" startTime="2012-06-19T23:54:11.6291707+02:00" endTime="2012-06-19T23:54:11.6447709+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd10451c-86d5-4663-98ff-d6ed71a3b4a0">
+      <Output>
+        <DebugTrace>10000000000000000000000000000000000000000000000000001.0
+0.011111111111111111111111111111111111111111111111111111
+10000000000000000000000000000000000000000000000000001.0
+10000000000000000000000000000000000000000000000000010.0
+10000000000000000000000000000000000000000000000000001.0
+10000000000000000000000000000000000000000000000000010.0
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fb17fa8d-60cf-4c75-9c8b-8901a00368ec" testId="eac6b939-beb9-cf3c-8bbf-c011308cb5b1" testName="ScaleExpansion_Simple" computerName="GOVERT-LAPTOP" duration="00:00:00.0046031" startTime="2012-06-19T23:54:11.6447709+02:00" endTime="2012-06-19T23:54:11.6447709+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb17fa8d-60cf-4c75-9c8b-8901a00368ec">
+    </UnitTestResult>
+    <UnitTestResult executionId="d37999fe-1c4a-485b-ac17-e768d8b6d6cf" testId="f2d0f9e5-1461-675a-00a2-3e8ed0852c0e" testName="Square_Random" computerName="GOVERT-LAPTOP" duration="00:00:00.1324547" startTime="2012-06-19T23:54:11.6447709+02:00" endTime="2012-06-19T23:54:11.7851727+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d37999fe-1c4a-485b-ac17-e768d8b6d6cf">
+    </UnitTestResult>
+    <UnitTestResult executionId="b888f124-33b6-4151-97f8-ca302c2a4b47" testId="f2d249f6-729c-a9f8-f15e-ce8800638a64" testName="NonOverlapping_Are_NonOverlapping" computerName="GOVERT-LAPTOP" duration="00:00:00.0001672" startTime="2012-06-19T23:54:11.7851727+02:00" endTime="2012-06-19T23:54:11.7851727+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b888f124-33b6-4151-97f8-ca302c2a4b47">
+    </UnitTestResult>
+    <UnitTestResult executionId="05e4bd9b-39fc-402b-b6e7-7d2c827669ba" testId="f5c49584-b846-249a-4183-663d50e4703d" testName="OptimTest" computerName="GOVERT-LAPTOP" duration="00:00:00.0005853" startTime="2012-06-19T23:54:11.7851727+02:00" endTime="2012-06-19T23:54:11.7851727+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05e4bd9b-39fc-402b-b6e7-7d2c827669ba">
+    </UnitTestResult>
+  </Results>
+</TestRun>

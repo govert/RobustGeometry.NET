@@ -1,0 +1,35 @@
+﻿using System;
+using System.Text;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace RobustArithmetic.Test.Util.Test
+{
+    [TestClass]
+    public class RuntimeTests
+    {
+
+        /// <summary>
+        ///  This test tries to confirm that the floating point rounding is the round-to-even tiebreaking rule specified by the IEEE 754 spec.
+        /// </summary>
+        [TestMethod]
+        public void RoundToEvenTiebreaking()
+        {
+            var d1 = DoubleConverter.FromFloatingPointBinaryString("100000000000000000000000000000000000000000000000000010");
+            var d2 = DoubleConverter.FromFloatingPointBinaryString(                                                     "1");
+            // Closest even to ~~~011
+            var d3 = DoubleConverter.FromFloatingPointBinaryString("100000000000000000000000000000000000000000000000000100");
+            var dtest = (double)d1 + d2;
+            var stest = dtest.ToFloatingPointBinaryString();
+            Assert.AreEqual(d3, dtest);
+
+            // Closest even to ~~~001
+            var d4 = DoubleConverter.FromFloatingPointBinaryString("100000000000000000000000000000000000000000000000000000");
+            var dtest2 = (double)d1 - d2;
+            var stest2 = dtest2.ToFloatingPointBinaryString();
+            Assert.AreEqual(d4, dtest2);
+        }
+
+    }
+}
