@@ -11,7 +11,7 @@ RobustGeometry.NET is a computational geometry software project with the followi
 
 * A C# port of the robust predicates of Shewchuk is done. It is complete but needs a bit more testing. To test this and understand the status of floating-point computation in .NET, there are some utility classes in the test project to access the Intel x86 FPU control states, and manipulate floating-point binary representations of doubles.
 
-	You are welcome to copy the two files `ExactArithmetic.cs` and `GeometricPredicates.cs` from `RobustArithmetic\Predicates` if you want to use the C# version of Shewchuk's predicates.c in another project.
+	You are welcome to copy the two files `ExactArithmetic.cs` and `GeometricPredicates.cs` from `RobustGeometry\Predicates` if you want to use the C# version of Shewchuk's predicates.c in another project.
 
 ## License
 
