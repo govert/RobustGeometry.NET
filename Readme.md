@@ -52,9 +52,9 @@ The following are required for my own near-term use, so I will be spending some 
 
 To give some idea of the type of application I require this for, I deal with meshes with 50,000 - 100,000 vertices, and need not do any real-time processing. For me the focus is on an implementation that is robust enough to use in practice (no unexpected numerical problems), yet simple enough to maintain and occasionally grow over the long term (not too much magic).
 
-Targeting the .NET platform is an explicit goal; while the initial work is in C#, I would welcome having parts of the library implemented in F#. If useful, configuring as a .NET portable library and targeting Mono would be 
+Targeting the .NET platform is an explicit goal; while the initial work is in C#, I would welcome having parts of the library implemented in F#. Configuring as a .NET portable library, or targeting the Mono runtime, would be nice but are not priorities for me.
 
-I would prefer a smaller selection of simple algorithms implemented in .NET, rather than a set of wrapper around extensive, complex or highly optimised C++ libraries.
+In principle, I would prefer a smaller selection of simple algorithms implemented in .NET, rather than a set of wrapper around extensive, complex or highly optimised C++ libraries.
 
 ## Getting involved
 
