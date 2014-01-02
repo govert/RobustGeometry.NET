@@ -47,7 +47,7 @@ The elegant .NET generics design for the halfedge data structure is [described h
 The following are required for my own near-term use, so I will be spending some time on them.
 
 * Halfedge-based mesh data structure.
-* Delaunay and constrainted Delaunay triangulations.
+* Delaunay and constrainted Delaunay triangulations, based on Triangle.NET (https://triangle.codeplex.com/).
 * WPF (3D) integration with the [Helix 3D Toolkit](http://helixtoolkit.codeplex.com) for visualisation.
 
 To give some idea of the type of application I require this for, I deal with meshes with 50,000 - 100,000 vertices, and need not do any real-time processing. For me the focus is on an implementation that is robust enough to use in practice (no unexpected numerical problems), yet simple enough to maintain and occasionally grow over the long term (not too much magic).
