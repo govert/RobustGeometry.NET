@@ -35,11 +35,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Numerics" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
@@ -47,6 +51,9 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HalfedgeMesh.Test\MeshPrimitivesTests.cs" />
+    <Compile Include="HalfedgeMesh.Test\TriangleMeshTests.cs" />
+    <Compile Include="HalfedgeMesh.WpfUI\PointMeshCanvas.cs" />
     <Compile Include="Predicates.Test\ExpansionTests.cs" />
     <Compile Include="FpuControl.Test\FpuControlTests.cs" />
     <Compile Include="FpuControl.Test\RoundingTests.cs" />
@@ -68,6 +75,10 @@
     <Compile Include="Util\RandomDouble.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\RobustGeometry.Wpf\RobustGeometry.Wpf.csproj">
+      <Project>{620326F2-7602-424F-B5C6-0A204C9E274D}</Project>
+      <Name>RobustGeometry.Wpf</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RobustGeometry\RobustGeometry.csproj">
       <Project>{41AA789F-BA8A-4E89-B336-F6913CAB8773}</Project>
       <Name>RobustArithmetic</Name>

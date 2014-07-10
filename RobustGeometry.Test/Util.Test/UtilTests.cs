@@ -10,58 +10,11 @@ namespace RobustArithmetic.Test.Util.Test
     [TestClass]
     public class UtilTests
     {
-        public UtilTests()
-        {
-            //
-            // TODO: Add constructor logic here
-            //
-        }
-
-        private TestContext testContextInstance;
-
-        /// <summary>
-        ///Gets or sets the test context which provides
-        ///information about and functionality for the current test run.
-        ///</summary>
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
-        }
-
-        #region Additional test attributes
-        //
-        // You can use the following additional attributes as you write your tests:
-        //
-        // Use ClassInitialize to run code before running the first test in the class
-        // [ClassInitialize()]
-        // public static void MyClassInitialize(TestContext testContext) { }
-        //
-        // Use ClassCleanup to run code after all tests in a class have run
-        // [ClassCleanup()]
-        // public static void MyClassCleanup() { }
-        //
-        // Use TestInitialize to run code before running each test 
-        // [TestInitialize()]
-        // public void MyTestInitialize() { }
-        //
-        // Use TestCleanup to run code after each test has run
-        // [TestCleanup()]
-        // public void MyTestCleanup() { }
-        //
-        #endregion
-
         [TestMethod]
         public void DoubleComponents_PreservesValue()
         {
             double d = 0.25;
-            var dstr = DoubleConverter.ToExactString(d);
+            var dstr = d.ToExactString();
             var dc = new DoubleComponents(d);
 
             var dcValue = (dc.Negative ? -1.0 : 1.0) * dc.Mantissa * Math.Pow(2.0, dc.Exponent);
@@ -111,8 +64,8 @@ namespace RobustArithmetic.Test.Util.Test
                                 DoubleConverter.FromFloatingPointBinaryString(   "10"),
                                 DoubleConverter.FromFloatingPointBinaryString(    "1") };
 
-            Assert.IsTrue(ExpansionExtensions.IsStronglyNonOverlapping(sn1));
-            Assert.IsTrue(ExpansionExtensions.IsStronglyNonOverlapping(sn2));
+            Assert.IsTrue(sn1.IsStronglyNonOverlapping());
+            Assert.IsTrue(sn2.IsStronglyNonOverlapping());
 
             // Two examples that are _not_ strongly nonoverlapping (S.p12)
             var nsn1 = new[] {  DoubleConverter.FromFloatingPointBinaryString("11100"),
@@ -122,8 +75,8 @@ namespace RobustArithmetic.Test.Util.Test
                                 DoubleConverter.FromFloatingPointBinaryString( "10"),
                                 DoubleConverter.FromFloatingPointBinaryString(  "1") };
 
-            Assert.IsFalse(ExpansionExtensions.IsStronglyNonOverlapping(nsn1));
-            Assert.IsFalse(ExpansionExtensions.IsStronglyNonOverlapping(nsn2));
+            Assert.IsFalse(nsn1.IsStronglyNonOverlapping());
+            Assert.IsFalse(nsn2.IsStronglyNonOverlapping());
 
         }
 

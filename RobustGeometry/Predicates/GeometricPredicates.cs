@@ -66,7 +66,7 @@ namespace RobustGeometry.Predicates
     /// Implements the four geometric predicates described by Shewchuck, and implemented in predicates.c.
     /// For each predicate, exports a ~Fast version that is a non-robust implementation directly with double arithmetic, 
     /// an ~Exact version which completed the full calculation in exact arithmetic, and the preferred version which
-    /// implements the adaptive routines return the correct sign and an approximate value.
+    /// implements the adaptive routines returning the correct sign and an approximate value.
     /// </summary>
     public static class GeometricPredicates
     {
@@ -105,7 +105,7 @@ namespace RobustGeometry.Predicates
         /// clockwise order; and zero if they are collinear. 
         /// The result is also a rough aproximation of twice the signed 
         /// area of the triangle defined by the three points.</returns>
-        /// <remarks>The implementation comouted the determinant using simple double arithmetic.</remarks>
+        /// <remarks>The implementation computed the determinant using simple double arithmetic.</remarks>
         public static double Orient2DFast(double[] pa, double[] pb, double[] pc)
         {
             double acx, bcx, acy, bcy;

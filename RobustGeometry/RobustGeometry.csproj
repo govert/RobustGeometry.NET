@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RobustGeometry</RootNamespace>
     <AssemblyName>RobustGeometry</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -42,8 +42,10 @@
     <Compile Include="HalfedgeMesh\Face.cs" />
     <Compile Include="HalfedgeMesh\Halfedge.cs" />
     <Compile Include="HalfedgeMesh\Mesh.cs" />
+    <Compile Include="HalfedgeMesh\PointTriangleMesh.cs" />
     <Compile Include="HalfedgeMesh\TriangleMesh.cs" />
     <Compile Include="HalfedgeMesh\Vertex.cs" />
+    <Compile Include="Polyhedron\Polyhedron.cs" />
     <Compile Include="Predicates\ExactArithmetic.cs" />
     <Compile Include="Predicates\GeometricPredicates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

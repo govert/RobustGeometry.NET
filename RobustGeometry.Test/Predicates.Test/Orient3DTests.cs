@@ -102,7 +102,7 @@ namespace RobustGeometry.Test.Predicates.Test
                     which is logically impossible and therefore predicates are not working correctly on modern HW at least."
               
              
-                HOWEVER: This is not really a problem of instability with the Shewchuk predicates. THe points A, B, C and E 
+                HOWEVER: This is not really a problem of instability with the Shewchuk predicates. The points A, B, C and E 
                 above are collinear. This makes the first onPlane test meaningless.
                 (It did keep me busy for a while, though.) 
 

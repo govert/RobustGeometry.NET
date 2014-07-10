@@ -9,6 +9,7 @@ namespace RobustArithmetic.Test.Util.Test
     [TestClass]
     public class RuntimeTests
     {
+        // TODO: Consider this issue, for whether 32-bit and 64-bit .NET parse differently: https://connect.microsoft.com/VisualStudio/feedback/details/914964/double-round-trip-conversion-via-a-string-is-not-safe#tabs
 
         /// <summary>
         ///  This test tries to confirm that the floating point rounding is the round-to-even tiebreaking rule specified by the IEEE 754 spec.

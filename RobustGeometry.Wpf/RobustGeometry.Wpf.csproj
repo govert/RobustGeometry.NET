@@ -49,7 +49,9 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HalfedgeUtils3D.cs" />
+    <Compile Include="HalfedgeMesh\HalfedgeUtils3D.cs" />
+    <Compile Include="HalfedgeMesh\TriangleMesh.cs" />
+    <Compile Include="HalfedgeMesh\Triangle3DMesh.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -72,6 +74,12 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RobustGeometry\RobustGeometry.csproj">
+      <Project>{41AA789F-BA8A-4E89-B336-F6913CAB8773}</Project>
+      <Name>RobustGeometry</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
