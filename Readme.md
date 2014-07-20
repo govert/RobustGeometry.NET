@@ -19,7 +19,7 @@ RobustGeometry.NET is published under the MIT license.
 
 The original C code for the robust geometric predicates was placed in the public domain by Jonathan Richard Shewchuk.
 
-The elegant .NET generics design for the halfedge data structure is described here by Alexander Kolliopoulos and implemented in his Lydos library, also published under the zlib license.
+The elegant .NET generics design for the halfedge data structure is [described here](http://www.dgp.toronto.edu/~alexk/) by Alexander Kolliopoulos and implemented in his Lydos library, is published under the zlib license.
 
 ## Roadmap
 
