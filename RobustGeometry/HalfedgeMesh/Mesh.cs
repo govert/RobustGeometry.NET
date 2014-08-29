@@ -13,7 +13,12 @@ namespace RobustGeometry.HalfedgeMesh
         // (especially good for 64-bit architecture, where index would be smaller than a pointer)
         // and then have some implicit storage scheme that puts the halfedge and its opposite next to each other, saving more space
         // and then even have a scheme for arranging the edges.
+        
         // For now not optimising for performance (time or space).
+        
+        // NOTE: Remember that for a large Mesh with lots of pointers, the Garbage Collector has to do a lot of work
+        //       to check what's alive. For arrays and indices, perhaps not.
+        
         readonly List<Edge> _edges = new List<Edge>();
         readonly List<Face> _faces = new List<Face>();
         readonly List<Halfedge> _halfedges = new List<Halfedge>();
